@@ -1,3 +1,6 @@
+# Assortment Data Generation  
+
+
 Style # - random
 Style description - text (random combination of three words?)
 Cost Price - (random .3 - .7 of retail)
