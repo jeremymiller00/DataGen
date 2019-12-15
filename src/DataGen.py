@@ -7,12 +7,12 @@ import random
 
 class DataGen:
 
-    def new_dataset(self, features: list) -> pd.DataFrame:
+    def __init__(features: list):
         '''
         Datasets are structured as Pandas Dataframes
         A new dataset requires at least one feature
         '''
-        df = pd.DataFrame(data=features)
+        self.data = pd.DataFrame(data=features)
         return df
 
     def add_feature(self, feature_name, distribution=scs.norm, size=100):
